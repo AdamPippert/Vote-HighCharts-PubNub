@@ -7,7 +7,7 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
         type: 'pie'
     },
     title: {
-        text: 'What\'s your favorite type of Superhero?'
+        text: 'Do you like good or evil to win?'
     },
     tooltip: {
         pointFormat: '<b>{point.percentage:.1f}% - {point.y} Vote(s)</b>'
@@ -40,7 +40,7 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
             name: 'Evil',
             y: 1
         }, {
-            name: 'Just love heroes',
+            name: 'I really don't care',
             y: 1
         }]
     }]
